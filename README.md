@@ -31,3 +31,21 @@ Complete the following tasks to configure the Caikit runtime and the AI model, a
 - Python (v3.8+)
 - pip (v23.0+)
 
+
+## Deployment
+
+- Install the requirements 
+```bash 
+pip install -r requirements.txt
+```
+- Start the runtime
+```bash
+python start_runtime.py
+```
+- Run sentiment analysis
+```bash
+python client.py
+```
+
+
+
